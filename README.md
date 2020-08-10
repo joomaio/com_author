@@ -1,4 +1,3 @@
-Component author
 To create your own website, one of the most efffective is using Joomla. By using Joomla, you can create and publish your articles quickly and easily.  There are plenty way to display your articles in a group, like in a category, have a tag,... but no one of Joomla's core extensions can help you show articles with the same author. To solve this problem, we recommended a new extension: component author.
 
 About Component Author

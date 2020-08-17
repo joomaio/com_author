@@ -1,15 +1,53 @@
-To create your own website, one of the most efffective is using Joomla. By using Joomla, you can create and publish your articles quickly and easily.  There are plenty way to display your articles in a group, like in a category, have a tag,... but no one of Joomla's core extensions can help you show articles with the same author. To solve this problem, we recommended a new extension: component author.
+# Joomla product author
+- com_author version 0.0.10
+- plg_author version 0.1
+- mod_author version 0.2
 
-About Component Author
-Component author help you create menu items which display all articles belong to an author. But, it also support for modules or plugins want to link to page display all article have the same author. All articles will be show in blog layout. 
+## Joomla com_author Changelog
+### Version 0.0.10
+- Joomla 3.9.13, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Remove unnecessary parameters in the component config
+    - Remove unnecessary parameters from menu item
+    - Add a limit on the number of posts in the config component
 
-Feature:
-- You can choose author of all articles wll be show in this page. Only one author can be chosen. This parameter is require.
+### Version 0.0.9
+- Joomla 3.9.12, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Add config in Global configuration
+    - Remove Subcategory in Articles view
+    - Fix icons error
+    - Fix the error of limit Articles
+    - Update language
 
-- You can choose category that these articles were displayed must have. Only one or not category can be chosen. This parameter is not required.
+### Version 0.0.8
+- Joomla 3.9.11, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Add function select category in menu item "Article blog by Author" to filter articles by category.
+    - Remove the menu item "Articles by Category and Author".
+    - Remove all parameters in the configuration page.
 
-- It also has many selection like a normal menuitem : show linked title or not, choose template to display,...
+### Version 0.0.7
+- Joomla 3.9.10, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Add language for the component.
+    - Add parameters in the configuration page.
 
-- Search Engine Friendly URL.
+## Joomla plg_author Changelog
+### Version 0.1
+- Joomla 3.9.11, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Add link to author page under each post
 
-- It is required if you want to use module author or plugin author.
+## Joomla mod_author Changelog
+### Version 0.2
+- Joomla 3.9.13, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Add function to turn off and on module title
+    - Add filter only enter positive integers in the field select the number of author
+
+### Version 0.1
+- Joomla 3.9.11, PHP 7.2.3, MySQL 5.7.26
+- Changes:
+    - Add the function to choose the number of authors to display (with link to author page)
+    - Added a function to select usergroup to filter author displays
